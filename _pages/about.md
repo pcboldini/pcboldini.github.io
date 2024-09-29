@@ -7,7 +7,7 @@ subtitle: Process & Energy Department, Delft University of Technology
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Building 34B K-1-090</p>
     <p>Leeghwaterstraat 39</p>
@@ -25,4 +25,4 @@ I am a PhD candidate at the Delft University of Technology with particular inter
 
 My PhD research currently focuses on the stability and transition to turbulence of fluids at supercritical pressure, which feature strong variations of properties (viscosity, density, etc.).
 
-<img src="main.png" width=250 height=200>
+<img src="../assets/img/Main.png" width=250 height=200>
