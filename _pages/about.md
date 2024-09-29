@@ -6,7 +6,7 @@ subtitle: Process & Energy Department, Delft University of Technology
 
 profile:
   align: right
-  image: <img src="prof_pic.jpg" width=50% height=50%> 
+  image: <img src="../assets/img/prof_pic.jpg" width=50% height=50%> 
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Building 34B K-1-090</p>
