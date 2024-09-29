@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: In development
+description: Under development
 nav: true
 nav_order: 4
 ---

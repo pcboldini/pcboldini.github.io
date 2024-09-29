@@ -24,5 +24,3 @@ social: false # includes social icons at the bottom of the page
 I am a PhD candidate at the Delft University of Technology with particular interest in flow instabilities and laminar-to-turbulent transition. My major focus lies on highly compressible and non-ideal fluid flows, in which unconventional high-temperature and gas dynamic effects are extremely relevant.  My work combines high-fidelity simulations (direct numerical simulations) with stability analysis methods (modal and non-modal stability analysis).
 
 My PhD research currently focuses on the stability and transition to turbulence of fluids at supercritical pressure, which feature strong variations of properties (viscosity, density, etc.).
-
-<img src="Main.png" width=50% height=50%>
