@@ -11,9 +11,9 @@ nav_order: 3
 
 - "DNS of K-type transition in a flat-plate boundary layer with supercritical fluids", 1st European Fluid Dynamics Conference (EFDC1), Aachen, Germany [Link](https://efdc1.de/)
 
-- "DNS of K-type transition in a flat-plate boundary layer with supercritical fluids", IUTAM Symposium on Laminar-Turbulent Transition 2024, Nagano, Japan [Link](https://iutam2024transition.shinshu-u.ac.jp/
+- "DNS of K-type transition in a flat-plate boundary layer with supercritical fluids", IUTAM Symposium on Laminar-Turbulent Transition 2024, Nagano, Japan [Link](https://iutam2024transition.shinshu-u.ac.jp/)
 
-- "Research on transitional boundary layers with fluids at supercritical pressure", Burgers Symposium 2024, Lunteren, the Netherlands
+- "Research on transitional boundary layers with fluids at supercritical pressure", Burgers Symposium 2024, Lunteren, the Netherlands, [Link](https://www.tudelft.nl/jmburgerscentrum)
 
 - "GPU-accelerated DNS of diabatic transitional boundary layers at supercritical pressures", DLES - Direct and Large Eddy Simulation 14, Erlangen, Germany [Link](https://www.lstm.tf.fau.de/dles/)
 
@@ -27,5 +27,5 @@ nav_order: 3
 
 - "Transient growth in flat-plate boundary layers with a highly non-ideal fluid", 15th ERCOFATC SIG33 WORKSHOP: Progress in Flow Instability, Transition and Control, Alghero, Italy [Link](https://www.ercoftac-sig33.conf.kth.se/)
 
-- "Direct numerical simulation of H-type transition in a flat-plate boundary layer with supercritical fluids", Burgers Symposium 2023, Lunteren, the Netherlands
+- "Direct numerical simulation of H-type transition in a flat-plate boundary layer with supercritical fluids", Burgers Symposium 2023, Lunteren, the Netherlands [Link](https://www.tudelft.nl/jmburgerscentrum)
 
