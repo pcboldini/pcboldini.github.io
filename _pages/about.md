@@ -25,4 +25,4 @@ I am a PhD candidate at the Delft University of Technology with particular inter
 
 My PhD research currently focuses on the stability and transition to turbulence of fluids at supercritical pressure, which feature strong variations of properties (viscosity, density, etc.).
 
-<img src="Main.png" width=50% height=50%>
+<img src="../assets/img/Main.png" width=50% height=50%>
