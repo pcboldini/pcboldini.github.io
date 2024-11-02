@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Upcoming:
 
-- "Direct numerical simulation of H-type transition in stratified horizontal boundary layers" by R. Hirai, 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, USA [Link](https://meetings.aps.org/Meeting/DFD24/Session/R27?showAbstract)
+- "Direct numerical simulation of H-type transition in stratified horizontal boundary layers" by R. Hirai, 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, USA [Link](https://meetings.aps.org/Meeting/DFD24/Session/R27.5)
 
 ### 2024:
 
