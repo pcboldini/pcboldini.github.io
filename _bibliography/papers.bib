@@ -4,8 +4,25 @@
 @article{Boldini3,
   author="P.~C.~Boldini and B.~Bugeat and J.~W.~R.~Peeters and M.~Kloker and R.~Pecnik",
   title="Controlled transition to turbulence in a flat-plate boundary layer with fluids at supercritical pressure",
-  year="2024",
+  year="2025",
   journal      = "in preparation for J. Fluid Mech.",
+}
+
+@article{Boldini2,
+  title = {CUBENS: A GPU-accelerated high-order solver for wall-bounded flows with non-ideal fluids},
+  journal = {Computer Physics Communications},
+  volume = {309},
+  pages = {109507},
+  year = {2025},
+  selected     = {true},
+  issn = {0010-4655},
+  doi = {https://doi.org/10.1016/j.cpc.2025.109507},
+  url = {https://www.sciencedirect.com/science/article/pii/S0010465525000104},
+  author = {Pietro Carlo Boldini and Ryo Hirai and Pedro Costa and Jurriaan W.R. Peeters and Rene Pecnik},
+  keywords = {Non-ideal compressible fluid dynamics, Direct numerical simulation, Non-ideal thermodynamics, High-order numerics, Wall-bounded flows, GPUs, OpenACC, Open source},
+  abstract = {We present a massively parallel GPU-accelerated solver for direct numerical simulations of transitional and turbulent flat-plate boundary layers and channel flows involving fluids in non-ideal thermodynamic states. While several high-fidelity solvers are currently available as open source, all of them are restricted to the ideal-gas region. In contrast, the CUBic Equation of state Navier-Stokes solver (CUBENS) can accurately model and simulate the non-ideal thermodynamics of single-phase compressible fluids in the vicinity of the vapor-liquid saturation line or the thermodynamic critical point. By employing high-order finite-difference schemes and convective terms in split, kinetic-energy-, and entropy-preserving form, the solver is numerically stable, and robust with minimal numerical dissipation, enabling it to capture the steep variations of non-ideal thermodynamic properties. For cost-effective high-fidelity simulations, in addition to MPI parallelization, CUBENS is GPU-accelerated using OpenACC directives for computation offloading, and asynchronous GPU-aware MPI for efficient GPU-GPU communication. Moreover, CUBENS is compatible with both NVIDIA and AMD GPU architectures, achieving significant performance results while ensuring energy-efficient simulations. For instance, using 64 NVIDIA A100 GPUs compared to 8192 CPUs at the same computational cost results in a speedup of approximately 130×. In multi-node and multi-GPU configurations ranging from 2 to 128 compute nodes (8 to 512 GPUs), a strong scaling efficiency of around 52% and a weak scaling efficiency of 0.88 with 10243 points per GPU, corresponding to approximately 5 billion degrees of freedom, are achieved. The CUBENS solver is validated against selected cases from the literature, covering transitional to turbulent ideal and non-ideal flows up to the transonic regime. In particular, we demonstrate the solver's suitability and applicability for direct numerical simulations of transitional boundary layers with fluids at supercritical pressure and with buoyancy effects. The development of this high-fidelity solver offers the potential for future fundamental research in non-ideal compressible fluid dynamics.
+  Program summary
+  Program Title: CUBic Equation of state Navier-Stokes (CUBENS) CPC Library link to program files: https://doi.org/10.17632/6jfy758gyv.1 Developer's repository link: https://github.com/pcboldini/CUBENS Licensing provisions: MIT Programming language: Fortran 90, OpenACC, MPI, Python, MATLAB Nature of problem: This code solves the three-dimensional Navier-Stokes equations for non-ideal gas flows in a Cartesian domain, applicable to boundary layers and channels. Solution method: This code uses high-order central finite-differences with split-convective form, preserving kinetic energy and entropy (KEEP) and pressure-equilibrium-preserving (PEP) property, for spatial discretization. The time advancement is performed with a third-order Total Variation Diminishing low-storage Runge-Kutta scheme. Flow non-ideality is accounted for by cubic equations of state and complex transport-properties models. Alongside MPI parallelization, the solver is GPU-accelerated using OpenACC for computation offloading and CPU-GPU data transfer, along with GPU-aware MPI for GPU-GPU communication.}
 }
 
 @misc{boldini2024directnumericalsimulationsktype,
@@ -58,13 +75,6 @@
     abstract    = {In the region close to the thermodynamic critical point and in the proximity of the pseudoboiling (Widom) line, strong property variations substantially alter the growth of modal instabilities, as revealed in Ren et al. [J. Fluid Mech. 871, 831 (2019)]. Here, we study nonmodal disturbances in the spatial framework using an eigenvector decomposition of the linearized Navier-Stokes equations under the assumption of locally parallel flow. To account for nonideality, a new energy norm is derived. Several heat transfer scenarios at supercritical pressure are investigated, which are of practical relevance in technical applications. The boundary layers with the fluid at supercritical pressure are heated or cooled by prescribing the wall and free-stream temperatures so that the temperature profile is either entirely subcritical (liquidlike), supercritical (gaslike), or transcritical (across the Widom line). The free-stream Mach number is set to $10^{−3}$. In the nontranscritical regimes, the resulting streamwise-independent streaks originate from the lift-up effect. Wall cooling enhances the energy amplification for both subcritical and supercritical regimes. When the temperature profile is increased beyond the Widom line, a strong suboptimal growth is observed over very short streamwise distances due to the Orr mechanism. Due to the additional presence of transcritical Mode II, the optimal energy growth at large distances is found to arise from an interplay between lift-up and Orr mechanism. As a result, optimal disturbances are streamwise-modulated streaks with strong thermal components and with a propagation angle inversely proportional to the local Reynolds number. The nonmodal growth is put in perspective with modal growth by means of an $N$-factor comparison. In the nontranscritical regimes, modal stability dominates regardless of a wall-temperature variation. In contrast, in the transcritical regime, nonmodal $N$ factors are found to resemble the imposition of an adverse pressure gradient in the ideal-gas regime. When cooling beyond the Widom line, optimal growth is greatly enhanced, yet strong inviscid instability prevails. When heating beyond the Widom line, optimal growth could be sufficiently large to favor transition, particularly with a high free-stream turbulence level.}
 }
 
-
-@ARTICLE{Boldini2,
-   author       = "P.~C.~Boldini and R.~Hirai and P.~Costa and J.~W.~R.~Peeters and R.~Pecnik",
-   title        = "{CUBENS}: a {GPU}-accelerated high-order solver for wall-bounded flows with non-ideal fluids",
-   year         = "2024",
-   journal      = "submitted to Computer Physics Communications",
-}
 
 @inproceedings{Boldini3,
   author = "P.~C.~Boldini, R.~Gaspar, B.~Bugeat, P.~Costa, J.~Peeters and R.~Pecnik", 

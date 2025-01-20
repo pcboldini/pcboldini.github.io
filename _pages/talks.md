@@ -7,11 +7,9 @@ nav: true
 nav_order: 3
 ---
 
-### Upcoming:
+### 2024:
 
 - "Direct numerical simulation of H-type transition in stratified horizontal boundary layers" by R. Hirai, 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, USA [Link](https://meetings.aps.org/Meeting/DFD24/Session/R27.5)
-
-### 2024:
 
 - "DNS of K-type transition in a flat-plate boundary layer with supercritical fluids", 1st European Fluid Dynamics Conference (EFDC1), Aachen, Germany [Link](https://efdc1.de/)
 
