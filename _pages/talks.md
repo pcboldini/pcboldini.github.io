@@ -27,7 +27,7 @@ nav_order: 3
 
 - "Direct numerical simulation of H-type transition in a flat-plate boundary layer with supercritical fluids", The 14th International ERCOFTAC Symposium on Engineering Turbulence Modelling and Measurements, Barcelona, Spain [Link](https://etmm.ercoftac.org/etmm/) 
 
-- "Transient growth in flat-plate boundary layers with a highly non-ideal fluid", 15th ERCOFATC SIG33 WORKSHOP: Progress in Flow Instability, Transition and Control, Alghero, Italy [Link](https://www.ercoftac-sig33.conf.kth.se/)
+- "Transient growth in flat-plate boundary layers with a highly non-ideal fluid", 15th ERCOFTAC SIG33 WORKSHOP: Progress in Flow Instability, Transition and Control, Alghero, Italy [Link](https://www.ercoftac-sig33.conf.kth.se/)
 
 - "Direct numerical simulation of H-type transition in a flat-plate boundary layer with supercritical fluids", Burgers Symposium 2023, Lunteren, the Netherlands [Link](https://www.tudelft.nl/jmburgerscentrum)
 

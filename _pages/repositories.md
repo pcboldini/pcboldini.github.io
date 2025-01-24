@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: CUBENS is online!
+description:
 nav: true
 nav_order: 4
 ---
