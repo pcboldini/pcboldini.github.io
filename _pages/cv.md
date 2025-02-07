@@ -5,6 +5,7 @@ title: "resume"
 nav: true
 nav_order: 6
 cv_pdf: CV.pdf
+description: For a more detailed resume, see PDF
 toc:
   sidebar: left
 ---
