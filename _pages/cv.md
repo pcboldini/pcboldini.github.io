@@ -1,10 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: "resume"
+title: resume
 nav: true
 nav_order: 6
-cv_pdf: example_pdf.pdf
+permalink: /assets/pdf/CV.pdf
 description: For a more detailed resume, see PDF
 toc:
   sidebar: left
