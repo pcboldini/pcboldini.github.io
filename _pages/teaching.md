@@ -9,7 +9,7 @@ nav_order: 5
 
 ### Teaching assistant: Advanced Heat Transfer (ME45001), M.Sc. course Mechanical Engineering
 
-Autumn 2022 and 2023: weekly instruction and assigments, [Link](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57916)
+Autumn 2022 and 2023: weekly instruction and assignments, [Link](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57916)
 
 <br><br><br>
 
