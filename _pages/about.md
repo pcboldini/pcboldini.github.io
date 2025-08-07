@@ -25,4 +25,4 @@ I am a PhD candidate at the Delft University of Technology with particular inter
 
 My PhD research in the group of [Rene Pecnik](https://dutw1479.wbmt.tudelft.nl/~renep/) focuses on the stability and transition to turbulence of fluids at supercritical pressure, which feature strong variations of properties (viscosity, density, etc.). 
 
-![LTT]({{ site.baseurl }}/assets/images/JFM_billows.jpg){: width="200px" style="float: right; margin-left: 20px;" }
+![LTT](/assets/img/JFM_billows.jpg){: width="500px" height="300px" }
