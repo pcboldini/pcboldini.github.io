@@ -1,5 +1,7 @@
 github_repos:
   - pcboldini/CUBENS
+  - pcboldini/DragAndHeatTransferEstimation_NonIdealFluids
+  - pcboldini/DNSvisualisation
   
 github_users:
   - pcboldini
