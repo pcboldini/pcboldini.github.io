@@ -7,6 +7,12 @@ nav: true
 nav_order: 3
 ---
 
+### 2025:
+
+- "Widom-line effect on the boundary-layer transition with a highly non-ideal fluid", 16th ERCOFTAC SIG33 WORKSHOP: Progress in Flow Instability, Transition and Control, Cagliari, Italy [Link](https://www.ercoftac-sig33.conf.kth.se/)
+
+- "CUBENS: A GPU-accelerated high-order solver for wall-bounded flows with non-ideal fluids", Computer Physics Communications Seminar Series [Link](https://doi.org/10.52843/cassyni.gwmx6m/)
+
 ### 2024:
 
 - "Direct numerical simulation of H-type transition in stratified horizontal boundary layers" by R. Hirai, 77th Annual Meeting of the APS Division of Fluid Dynamics, Salt Lake City, USA [Link](https://meetings.aps.org/Meeting/DFD24/Session/R27.5)
