@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Building 45, Room 42-00-110</p>
     <p>Leeghwaterstraat 45</p>
-    <p>2628 CB Delft, The Netherlands</p>
+    <p>2628 CA Delft, The Netherlands</p>
 
 Office: 
 Email: pietro.c.boldini@gmail.com
@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher at the Delft University of Technology with particular interest in flow instabilities and laminar-to-turbulent transition. My major focus lies on highly compressible and non-ideal fluid flows, in which unconventional high-temperature and gas dynamic effects are extremely relevant.  My work combines high-fidelity simulations (direct numerical simulations) with stability analysis methods (modal and non-modal stability analysis).
+I am a postdoctoral researcher at the Delft University of Technology with particular interest in flow instabilities and laminar-to-turbulent transition. My major focus lies on highly compressible and non-ideal fluid flows, in which unconventional high-temperature and gas dynamic effects are extremely relevant. My work combines high-fidelity simulations (direct numerical simulations) with stability analysis methods (modal and non-modal stability analysis).
 
 My PhD research in the group of [Rene Pecnik](https://dutw1479.wbmt.tudelft.nl/~renep/) focused on the stability and transition to turbulence of fluids at supercritical pressure, which feature strong variations of properties (viscosity, density, etc.). 
 

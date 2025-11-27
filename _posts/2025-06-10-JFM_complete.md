@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New paper published: Direct numerical simulation of complete transition to turbulence with a fluid at supercritical pressure"
+title: "New paper submitted: Direct numerical simulation of complete transition to turbulence with a fluid at supercritical pressure"
 date: 2025-06-10
 category: news
 tags: [publication, paper, research]
