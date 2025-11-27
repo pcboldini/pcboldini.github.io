@@ -24,12 +24,11 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* Make images in Selected Publications round */
-#selected-publications + ol img,
-#selected-publications + ul img {
+/* Make ALL publication preview thumbnails circular */
+img.preview {
   width: 110px;
   height: 110px;
-  border-radius: 50%;
+  border-radius: 50% !important;
   object-fit: cover;
   display: block;
 }
