@@ -8,4 +8,4 @@ tags: [publication, paper, research]
 
 You can access the full paper here: [First-order buoyancy correction of modal instabilities in stratified boundary layers](https://arxiv.org/abs/2511.21130).
 
-![LTT](/assets/img/JFM2_foc.jpg){: width="500px" height="300px" }
+![LTT](/assets/img/JFM2_foc.jpg){: width="500px" height="200px" }
