@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Building 45, Room 42-00-110</p>
+    <p>Building 45, Room 45-00-040</p>
     <p>Leeghwaterstraat 45</p>
     <p>2628 CA Delft, The Netherlands</p>
 
