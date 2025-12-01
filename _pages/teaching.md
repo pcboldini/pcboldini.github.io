@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching/supervision
+permalink: /education/
+title: education
 description: Past teaching and supervision experiences
 nav: true
 nav_order: 5

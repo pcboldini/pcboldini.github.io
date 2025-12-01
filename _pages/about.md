@@ -27,4 +27,6 @@ My PhD research in the group of [Rene Pecnik](https://dutw1479.wbmt.tudelft.nl/~
 
 My postdoctoral research in the group of [Marios Kotsonis](https://www.tudelft.nl/staff/m.kotsonis/) focuses on flow control through metamaterials, with the aim of postponing transition, thereby reducing turbulence and mitigating its impact on aerodynamic drag and noise.
 
-![LTT](/assets/img/JFM_billows.jpg){: width="500px" height="300px" }
+Feel free to reach out if you’d like to know more or discuss; I’m always happy to connect and explore opportunities for supervision and collaboration.
+
+<!-- ![LTT](/assets/img/JFM_billows.jpg){: width="500px" height="300px" } -->
