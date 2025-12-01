@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /service/
-title: academic service
+permalink: /academics/
+title: academics
 description: Overview of professional and scholarly service.
 nav: true
 nav_order: 6
