@@ -6,11 +6,8 @@
     role="navigation"
   >
     <div class="container">
-      <!-- Brand (left side): full title on home, short title on secondary pages -->
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        {% if page.permalink == '/' %}
-          {{- site.title_full | default: site.title -}}
-        {% else %}
+      {% if page.permalink != '/' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -26,12 +23,10 @@
           {% else %}
             {{- site.title_short | default: site.title -}}
           {% endif %}
-        {% endif %}
-      </a>
-
-      <!-- Social Icons (only on home, optional) -->
-      {% if page.permalink == '/' and site.enable_navbar_social %}
-        <div class="navbar-brand social ml-3">{% include social.liquid %}</div>
+        </a>
+      {% elsif site.enable_navbar_social %}
+        <!-- Social Icons (home only) -->
+        <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
 
       <!-- Navbar Toggle -->
