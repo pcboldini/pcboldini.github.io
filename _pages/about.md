@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "Dr. Pietro Carlo Boldini"
+title: about
 permalink: /
 subtitle: Aerodynamics Group, Faculty of Aerospace Engineering, Delft University of Technology
 
