@@ -49,7 +49,7 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %}
-              {% assign about_title = page.title %}
+              {% assign about_title = page.nav_title | default: page.title %}
             {% endif %}
           {% endfor %}
 
