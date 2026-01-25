@@ -6,32 +6,34 @@
     role="navigation"
   >
     <div class="container">
-      <!-- Brand (left side): full title on home, short title on secondary pages -->
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        {% if page.permalink == '/' %}
-          {{- site.title_full | default: site.title -}}
-        {% else %}
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
+      <!-- Brand (left side): hide on home when showing social icons -->
+      {% unless page.url == '/' and site.enable_navbar_social %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if page.url == '/' %}
+            {{- site.title_full | default: site.title -}}
           {% else %}
-            {{- site.title | default: site.title -}}
+            {% if site.title == 'blank' %}
+              {% if site.first_name %}
+                <span class="font-weight-bold">
+                  {{- site.first_name -}}
+                </span>
+              {% endif %}
+              {% if site.middle_name %}
+                {{- site.middle_name -}}
+              {% endif %}
+              {% if site.last_name %}
+                {{- site.last_name -}}
+              {% endif %}
+            {% else %}
+              {{- site.title | default: site.title -}}
+            {% endif %}
           {% endif %}
-        {% endif %}
-      </a>
+        </a>
+      {% endunless %}
 
       <!-- Social Icons (only on home, optional) -->
-      {% if page.permalink == '/' and site.enable_navbar_social %}
-        <div class="navbar-brand social ml-3">{% include social.liquid %}</div>
+      {% if page.url == '/' and site.enable_navbar_social %}
+        <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
 
       <!-- Navbar Toggle -->
@@ -59,10 +61,10 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+          <li class="nav-item {% if page.url == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.url == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -140,7 +142,7 @@
           {% endif %}
 
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
@@ -163,5 +165,6 @@
     </progress>
   {% endif %}
 </header>
+
 
 
