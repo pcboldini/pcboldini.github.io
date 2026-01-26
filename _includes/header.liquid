@@ -12,21 +12,15 @@
           {% if page.url == '/' %}
             {{- site.title_full | default: site.title -}}
           {% else %}
-            {% if site.title == 'blank' %}
-              {% if site.first_name %}
-                <span class="font-weight-bold">
-                  {{- site.first_name -}}
-                </span>
-              {% endif %}
-              {% if site.middle_name %}
-                {{- site.middle_name -}}
-              {% endif %}
-              {% if site.last_name %}
-                {{- site.last_name -}}
-              {% endif %}
-            {% else %}
-              {{- site.title | default: site.title -}}
-            {% endif %}
+            {%- if site.title_short -%}
+              {{- site.title_short -}}
+            {%- elsif site.first_name and site.last_name -%}
+              {%- assign fi = site.first_name | slice: 0, 1 -%}
+              {%- assign mi = site.middle_name | slice: 0, 1 -%}
+              Dr. {{ fi }}.{% if site.middle_name %} {{ mi }}.{% endif %} {{ site.last_name }}
+            {%- else -%}
+              {{- site.title | default: site.title_full -}}
+            {%- endif -%}
           {% endif %}
         </a>
       {% endunless %}
@@ -165,6 +159,7 @@
     </progress>
   {% endif %}
 </header>
+
 
 
 
