@@ -17,6 +17,8 @@ Autumn 2022 and 2023: weekly instruction and assignments, [Link](https://studieg
 
 - 2024: F. Ramalho Matias, ['Three-Dimensional Linear Stability Analysis of Flat-Plate Boundary Layers with Supercritical Fluids'](https://repository.tudelft.nl/record/uuid:2a0f3855-9263-4370-98e7-e64e684cb8c5)
 
-- 2023: R. Gaspar, ['Investigation of the transition to turbulence on a flat-plate boundary layer at supercritical pressure'](https://matheo.uliege.be/handle/2268.2/17888)
+- 2023: R. Gaspar (ULiège), ['Investigation of the transition to turbulence on a flat-plate boundary layer at supercritical pressure'](https://matheo.uliege.be/handle/2268.2/17888)
+
+- 2023: J. Wang (Sorbonne), 'Secondary instabilities in flat-plate boundary-layer flow for supercritical fluids'
 
 - 2022: P. Molahalli, ['Secondary Flows in Asymmetrical Contractions'](https://repository.tudelft.nl/record/uuid:23927cd6-5349-4718-90f5-f5b006a42584)
