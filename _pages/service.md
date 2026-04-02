@@ -10,6 +10,8 @@ nav_order: 6
 ## Peer Review
 
 - 2 reviews for Journal of Fluid Mechanics
+- 1 review for Physical Review Fluids
+- 1 review for Physics of Fluids
 - 1 review for GPPS Chania 2024 Technical Conference
 
 ## Institutional Service
