@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seminar talk at the DynFluid laboratory, ENSAM"
+title: "Seminar talk at the DynFluid laboratory, Arts et Métiers (ENSAM), Paris"
 date: 2026-06-11
 category: news
 tags: [seminar, talk, dynfluid, ensam]
