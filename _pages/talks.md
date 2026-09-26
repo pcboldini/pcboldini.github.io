@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 ---
 
+### 2026:
+
+- "Research on boundary-layer transition with supercritical fluids", 6th International Seminar on Non-Ideal Compressible Fluid Dynamics (NICFD2026), Lecce, Italy [Link](https://nicfd-2026.sciencesconf.org/)
+
 ### 2025:
 
 - "Widom-line effect on the boundary-layer transition with a highly non-ideal fluid", 16th ERCOFTAC SIG33 WORKSHOP: Progress in Flow Instability, Transition and Control, Cagliari, Italy [Link](https://www.ercoftac-sig33.conf.kth.se/)
