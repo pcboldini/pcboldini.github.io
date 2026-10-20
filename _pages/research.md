@@ -15,7 +15,7 @@ nav_order: 1
   .res-card .card-link { font-size: 0.85rem; }
 </style>
 
-I study how laminar flows become turbulent, and how this transition can be predicted and controlled, in flows where compressibility and real-fluid effects change the physics. My work combines stability analysis, high-fidelity simulations and high-performance computing, supported by open-source codes. The full list of papers is on the [publications](/publications/) page, and my PhD work is collected in my [thesis](https://repository.tudelft.nl/record/uuid:f9203cce-d2bd-460f-879d-8dfa4fb1bfa7).
+I study how laminar flows become turbulent, and how this transition can be predicted and controlled, in flows where compressibility and non-ideal effects change the physics. My work combines stability analysis, high-fidelity simulations and high-performance computing, supported by open-source codes. The full list of papers is on the [publications](/publications/) page, and my PhD work is collected in my [thesis](https://repository.tudelft.nl/record/uuid:f9203cce-d2bd-460f-879d-8dfa4fb1bfa7).
 
 ### Instabilities in non-ideal fluids
 
@@ -101,24 +101,7 @@ Direct numerical simulations with CUBENS follow the full path from small disturb
   </div>
 </div>
 
-### Laminar flow control
-
-Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wall-based concepts can keep boundary layers laminar for longer on wings, reducing skin-friction drag and noise. Harmonic Navier–Stokes methods predict how surface features and flow-control devices change the growth of instabilities.
-
-<div class="row justify-content-center">
-  <div class="col-md-6 mb-4">
-    <div class="card h-100 res-card">
-      {% include figure.liquid loading="lazy" path="assets/img/research/DeHNSSo_logo.svg" class="card-img-top" alt="DeHNSSo-v2" %}
-      <div class="card-body">
-        <h5 class="card-title">DeHNSSo-v2</h5>
-        <p class="card-text">Extends the Delft Harmonic Navier–Stokes Solver to compressible flows over curved geometries, with automatic grids and about ten times faster nonlinear runs.</p>
-        <a href="https://github.com/pcboldini/DeHNSSo" class="card-link">Code on GitHub (paper submitted to CPC)</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-### GPU-accelerated simulation of non-ideal fluids
+### Numerical simulation of non-ideal fluid flows
 
 Open-source, high-order solvers make large simulations of non-ideal fluid flows affordable on modern supercomputers.
 
@@ -135,10 +118,10 @@ Open-source, high-order solvers make large simulations of non-ideal fluid flows 
   </div>
   <div class="col-md-6 mb-4">
     <div class="card h-100 res-card">
-      {% include figure.liquid loading="lazy" path="assets/img/publication_preview/JCP_Sanath.png" class="card-img-top" alt="Real-gas flows in closed systems" %}
+      {% include figure.liquid loading="lazy" path="assets/img/publication_preview/JCP_Sanath.png" class="card-img-top" alt="Non-ideal fluid flows in closed systems" %}
       <div class="card-body">
-        <h5 class="card-title">Real-gas flows in closed systems</h5>
-        <p class="card-text">A low-Mach-number method for real fluids in closed systems that keeps the thermodynamic pressure, the equation of state and global mass consistent.</p>
+        <h5 class="card-title">Non-ideal fluid flows in closed systems</h5>
+        <p class="card-text">A low-Mach-number method for non-ideal fluids in closed systems that keeps the thermodynamic pressure, the equation of state and global mass consistent.</p>
         <a href="https://arxiv.org/abs/2607.29224" class="card-link">arXiv, 2026</a>
       </div>
     </div>
@@ -146,6 +129,23 @@ Open-source, high-order solvers make large simulations of non-ideal fluid flows 
 </div>
 
 **Code:** [CUBENS](https://github.com/pcboldini/CUBENS) · [DragHeat-NIF](https://github.com/pcboldini/DragAndHeatTransferEstimation_NonIdealFluids)
+
+### Laminar flow control
+
+Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wall-based concepts can keep boundary layers laminar for longer on wings, reducing skin-friction drag and noise. Harmonic Navier–Stokes methods predict how surface features and flow-control devices change the growth of instabilities.
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 res-card">
+      {% include figure.liquid loading="lazy" path="assets/img/research/DeHNSSo_logo.svg" class="card-img-top" alt="DeHNSSo-v2" %}
+      <div class="card-body">
+        <h5 class="card-title">DeHNSSo-v2</h5>
+        <p class="card-text">Extends the Delft Harmonic Navier–Stokes Solver to compressible flows over curved geometries, with automatic grids and about ten times faster nonlinear runs.</p>
+        <a href="https://github.com/pcboldini/DeHNSSo" class="card-link">Code on GitHub (paper submitted to CPC)</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ### Earlier work: hypersonic and rarefied flows
 
