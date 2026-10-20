@@ -9,6 +9,8 @@ nav_order: 3
 
 ### 2026:
 
+- "Porting CUBENS to GPUs: A high-fidelity solver for non-ideal fluid flows", 2nd Symposium on Accelerated Computing for Application Workflows (SACAW 2026), SURF, Utrecht, the Netherlands [Link](https://www.surf.nl/en/agenda/2nd-symposium-on-accelerated-computing-for-application-workflows)
+
 - "Research on boundary-layer transition with supercritical fluids", 6th International Seminar on Non-Ideal Compressible Fluid Dynamics (NICFD2026), Lecce, Italy [Link](https://nicfd-2026.sciencesconf.org/)
 
 - "Research on boundary-layer transition with supercritical fluids", DynFluid laboratory, Arts et Métiers (ENSAM), Paris, France
