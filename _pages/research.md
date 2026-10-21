@@ -154,5 +154,5 @@ Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wa
 Before my PhD, at the University of Stuttgart and Tsinghua University, I studied thermal non-equilibrium effects on the stability of hypersonic boundary layers, crossflow transition control on cones, and rarefied-flow intakes for atmosphere-breathing electric propulsion (EU project DISCOVERER).
 
 <div class="publications">
-{% bibliography --query @*[key=10.1007/978-981-13-3305-7_41 || key=CitekeyMastersthesis || key=10.1063/1.4967689] --group_by none %}
+{% bibliography --query @*[key=10.1007/978-981-13-3305-7_41 || key=CitekeyMastersthesis || key=10.1063/1.4967689 || key=CitekeyBachelorthesis] --group_by none %}
 </div>
