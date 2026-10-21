@@ -141,11 +141,13 @@ Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wa
       <div class="card-body">
         <h5 class="card-title">DeHNSSo-v2</h5>
         <p class="card-text">Extends the Delft Harmonic Navier–Stokes Solver to compressible flows over curved, body-fitted geometries, with automatic grids, Newton continuation for large amplitudes, and nonlinear runs about ten times faster.</p>
-        <a href="https://github.com/pcboldini/DeHNSSo" class="card-link">Code on GitHub (paper submitted to CPC)</a>
+        <a href="https://arxiv.org/abs/2610.27906" class="card-link">arXiv, 2026</a>
       </div>
     </div>
   </div>
 </div>
+
+**Code:** [DeHNSSo](https://github.com/pcboldini/DeHNSSo)
 
 ### Earlier work: hypersonic and rarefied flows
 
