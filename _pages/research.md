@@ -17,7 +17,7 @@ nav_order: 1
 
 I study how laminar flows become turbulent, and how this transition can be predicted and controlled, in flows where compressibility and non-ideal effects change the physics. My work combines stability analysis, high-fidelity simulations and high-performance computing, supported by open-source codes. The full list of papers is on the [publications](/publications/) page, and my PhD work is collected in my [thesis](https://repository.tudelft.nl/record/uuid:f9203cce-d2bd-460f-879d-8dfa4fb1bfa7).
 
-### Instabilities in non-ideal fluids
+<h3 class="home-h" id="instabilities-in-non-ideal-fluids"><span class="hh-icon"><i class="fa-solid fa-wave-square"></i></span>Instabilities in non-ideal fluids</h3>
 
 Fluids at supercritical pressure are used in power cycles, rocket-engine cooling and heat pumps. When the temperature crosses the Widom line (pseudo-boiling), density and viscosity drop sharply and the heat capacity peaks, so that the kinematic viscosity reaches a minimum. These property variations reshape the stability of boundary layers.
 
@@ -64,7 +64,7 @@ Fluids at supercritical pressure are used in power cycles, rocket-engine cooling
   </div>
 </div>
 
-### Transition to turbulence at supercritical pressure
+<h3 class="home-h" id="transition-to-turbulence-at-supercritical-pressure"><span class="hh-icon"><i class="fa-solid fa-tornado"></i></span>Transition to turbulence at supercritical pressure</h3>
 
 Direct numerical simulations with CUBENS follow the full path from small disturbances to turbulence in heated boundary layers at supercritical pressure.
 
@@ -101,7 +101,7 @@ Direct numerical simulations with CUBENS follow the full path from small disturb
   </div>
 </div>
 
-### Numerical simulation of non-ideal fluid flows
+<h3 class="home-h" id="numerical-simulation-of-non-ideal-fluid-flows"><span class="hh-icon"><i class="fa-solid fa-microchip"></i></span>Numerical simulation of non-ideal fluid flows</h3>
 
 Open-source, high-order solvers make large simulations of non-ideal fluid flows affordable on modern supercomputers.
 
@@ -130,7 +130,7 @@ Open-source, high-order solvers make large simulations of non-ideal fluid flows 
 
 **Code:** [CUBENS](https://github.com/pcboldini/CUBENS) · [DragHeat-NIF](https://github.com/pcboldini/DragAndHeatTransferEstimation_NonIdealFluids)
 
-### Laminar flow control
+<h3 class="home-h" id="laminar-flow-control"><span class="hh-icon"><i class="fa-solid fa-plane"></i></span>Laminar flow control</h3>
 
 Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wall-based concepts can keep boundary layers laminar for longer on wings, reducing skin-friction drag and noise. Harmonic Navier–Stokes methods predict how surface features and flow-control devices change the growth of instabilities.
 
@@ -140,7 +140,7 @@ Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wa
       {% include figure.liquid loading="lazy" path="assets/img/research/DeHNSSo_logo.svg" class="card-img-top" alt="DeHNSSo-v2" %}
       <div class="card-body">
         <h5 class="card-title">DeHNSSo-v2</h5>
-        <p class="card-text">Extends the Delft Harmonic Navier–Stokes Solver to compressible flows over curved, body-fitted geometries, with automatic grids, Newton continuation for large amplitudes, and nonlinear runs about ten times faster.</p>
+        <p class="card-text">Extends the Delft Harmonic Navier–Stokes Solver to compressible flows over curved, body-fitted geometries, with automatic grids, Newton continuation for large amplitudes, and nonlinear runs up to 19 times faster.</p>
         <a href="https://arxiv.org/abs/2610.27906" class="card-link">arXiv, 2026</a>
       </div>
     </div>
@@ -149,7 +149,7 @@ Within the ERC-funded MetaWing project, I study how metamaterial surfaces and wa
 
 **Code:** [DeHNSSo](https://github.com/pcboldini/DeHNSSo)
 
-### Earlier work: hypersonic and rarefied flows
+<h3 class="home-h" id="earlier-work-hypersonic-and-rarefied-flows"><span class="hh-icon"><i class="fa-solid fa-rocket"></i></span>Earlier work: hypersonic and rarefied flows</h3>
 
 Before my PhD, at the University of Stuttgart and Tsinghua University, I studied thermal non-equilibrium effects on the stability of hypersonic boundary layers, crossflow transition control on cones, and rarefied-flow intakes for atmosphere-breathing electric propulsion (EU project DISCOVERER).
 
