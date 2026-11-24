@@ -9,7 +9,7 @@ nav_order: 6
 
 <h3 class="home-h"><span class="hh-icon"><i class="fa-solid fa-magnifying-glass"></i></span>Peer review</h3>
 <ul class="item-list">
-<li><span class="it-title">Journal of Fluid Mechanics</span><span class="it-meta">6 reviews</span></li>
+<li><span class="it-title">Journal of Fluid Mechanics</span><span class="it-meta">7 reviews</span></li>
 <li><span class="it-title">Physical Review Fluids</span><span class="it-meta">1 review</span></li>
 <li><span class="it-title">Physics of Fluids</span><span class="it-meta">1 review</span></li>
 <li><span class="it-title">GPPS Chania 2024 Technical Conference</span><span class="it-meta">1 review</span></li>
